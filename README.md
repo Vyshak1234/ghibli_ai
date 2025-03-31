@@ -19,9 +19,9 @@ Downloadable outputs.
 🛠️ Installation
 
 Ensure you have Python installed, then install the necessary dependencies:
-
+```
 pip install huggingface_hub diffusers transformers accelerate safetensors xformers torch matplotlib pillow google-colab
-
+```
 🔑 Authentication
 
 You need a Hugging Face token to access the model:
@@ -37,9 +37,9 @@ export HF_TOKEN=your_token_here
 📸 Usage
 
 Run the script:
-
+```
 python ghibli.py
-
+```
 Workflow
 
 Upload an image (JPG, PNG, etc.).
